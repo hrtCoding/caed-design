@@ -1,0 +1,67 @@
+.circle {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    background: #DE0D7C;
+    clip-path: circle(160px at center -16px);
+    right: 1px;
+    border-radius: 20px;
+    bottom: 2px;
+}
+
+.circle-2 {
+    background: #C11BEA !important;
+}
+
+.circle-3 {
+    background: #F79D1A;
+}
+
+.circle h1 {
+    color: white;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.card {
+    margin: auto;
+    margin-top: 50%;
+    height: 420px !important;
+    border-radius: 20px !important;
+    width: 300px !important;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.card-section {
+    background: linear-gradient(45deg, #ff1800, #bb02ff, #FEAE01);
+    height: 100vh;
+}
+
+.btn {
+    background: #DE0D7C !important;
+    border-radius: 20px !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.btn-2 {
+    background: #bb02ff !important;
+    ;
+}
+
+.btn-3 {
+    background: #F79D1A !important;
+}
+
+.container:hover .card {
+    filter: blur(20px);
+    transform: scale(0.9);
+
+}
+
+.container .card:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+}
